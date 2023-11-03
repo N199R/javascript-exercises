@@ -1,4 +1,13 @@
-const removeFromArray = function() {
+const removeFromArray = function(array, num) {
+    for(let i = 0; i<array.length;i++){
+        if(array[i]==num){
+           cutedArray= array.splice(i,i);
+            return cutedArray;
+        }
+         removedArray=removedArray+array[i];
+         return removedArray;
+
+    }
 
 };
 
